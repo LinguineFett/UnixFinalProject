@@ -4,4 +4,6 @@ It will be used to practice pushing and pulling files, as well as handling confl
 <br>
 This edit was created by Nic Spagnolo for the second part of the Unix final project.<br>
 <br>
-This edit is used to create a conflict.
+This edit is used to create a conflict.<br>
+This edit was created by Nic Spagnolo for the second part of the Unix final project. 
+I am an intellectual.
