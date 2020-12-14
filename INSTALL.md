@@ -21,12 +21,22 @@ The next step is to navigate to your `/var/www/html/` directory, which is where 
 ---
 
 ## 3. Installing Jekyll and creating group website
-TODO
+The next step is setting up your Jekyll website.
 
 ---
 
 ## 4. Creating auto-deploy script
-TODO
+The auto-deploy script is meant to automatically update the live website by pulling the changes from github. 
+`while true
+	do
+		cd /home/debian/UnixFinalProject
+		git pull
+		cd groupSite
+		bundle exec jekyll build
+		sudo cp -r _site/. /var/www/html/
+		sleep 300
+	done
+`
 
 ---
 ---
