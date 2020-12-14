@@ -11,4 +11,3 @@ permalink: /about/
 
 #### Please enjoy our awesome cars!
 
-The Chevrolet Spark is a cool car!
